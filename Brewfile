@@ -12,7 +12,11 @@ tap "homebrew/core"
 tap "homebrew/services"
 tap "nektos/tap"
 tap "neovim/neovim"
+tap "brightdigit/homebrew-speculid"
 tap "valelint/vale"
+
+cask "java"
+
 # CLI tool for working with Architecture Decision Records
 # brew "adr-tools"
 # Record and share terminal sessions
@@ -83,8 +87,6 @@ brew "gnutls"
 brew "go"
 # Deliver Go binaries as fast and easily as possible
 brew "goreleaser"
-# GPG key agent
-brew "gpg-agent"
 # Open-source build automation tool based on the Groovy and Kotlin DSL
 brew "gradle"
 # Bash and Zsh completion for Gradle
@@ -108,7 +110,7 @@ brew "hub"
 # Configurable static site generator
 brew "hugo"
 # Tools and libraries to manipulate images in many formats
-brew "imagemagick", args: ['with-webp']
+brew "imagemagick"
 # Calculate various network masks, etc. from a given IP address
 brew "ipcalc"
 # malloc implementation emphasizing fragmentation avoidance
@@ -242,25 +244,23 @@ cask "dash"
 cask "discord"
 cask "docker"
 cask "dropbox"
-cask "evernote"
+# cask "evernote"
 cask "figma"
-cask "filezilla"
+# cask "filezilla"
 cask "firefox"
 # cask "font-hack"
 # cask "font-source-code-pro"
 # cask "goland"
 cask "google-chrome"
 cask "google-cloud-sdk"
-cask "gpgsuite"
+cask "gpg-suite"
 cask "hammerspoon"
 cask "hex-fiend"
-cask "hopper-disassembler"
 cask "intel-haxm"
 cask "intellij-idea-ce"
 cask "imageoptim"
 cask "istat-menus"
 cask "iterm2"
-cask "java"
 cask "kap"
 cask "keepingyouawake"
 cask "keka"
