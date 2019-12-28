@@ -19,7 +19,7 @@ brew bundle
 ## 3. Install dotfiles
 
 ```console
-git clone https://github.com/ynnadrules/dotfiles2.git ~/.dotfiles
+git clone https://github.com/ynnadrules/dotfiles.git ~/.dotfiles
 cd ~/.dotfiles
 ./script/bootstrap
 zsh
