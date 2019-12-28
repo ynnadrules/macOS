@@ -11,15 +11,15 @@ How I setup a new Mac.
 ## 2. Install deps
 
 ```console
-git clone https://github.com/caarlos0/mac.git
-cd mac
+git clone https://github.com/ynnadrules/macos.git
+cd macos
 brew bundle
 ```
 
 ## 3. Install dotfiles
 
 ```console
-git clone https://github.com/caarlos0/dotfiles.git ~/.dotfiles
+git clone https://github.com/ynnadrules/dotfiles2.git ~/.dotfiles
 cd ~/.dotfiles
 ./script/bootstrap
 zsh
