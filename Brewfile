@@ -68,8 +68,8 @@ brew "gifsicle"
 brew "git"
 # Small git utilities
 brew "git-extras"
-# Extensions to follow Vincent Driessen's branching model
-brew "git-flow"
+# AVH edition of git-flow
+brew "git-flow-avh"
 # Git extension for versioning large files
 brew "git-lfs"
 # Easy TOC creation for GitHub README.md (in go)
