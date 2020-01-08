@@ -14,6 +14,7 @@ tap "nektos/tap"
 tap "neovim/neovim"
 tap "brightdigit/homebrew-speculid"
 tap "valelint/vale"
+tap "vapor/tap"
 
 cask "java"
 
@@ -64,13 +65,15 @@ brew "gettext", link: true
 # GIF image/animation creator/editor
 brew "gifsicle"
 # Distributed revision control system
-brew 'git'
+brew "git"
 # Small git utilities
-brew 'git-extras'
+brew "git-extras"
+# Extensions to follow Vincent Driessen's branching model
+brew "git-flow"
 # Git extension for versioning large files
-brew 'git-lfs'
+brew "git-lfs"
 # Easy TOC creation for GitHub README.md (in go)
-brew 'github-markdown-toc'
+brew "github-markdown-toc"
 # Command-line option parsing utility
 brew "gnu-getopt"
 # C code prettifier
@@ -117,6 +120,8 @@ brew "ipcalc"
 # brew "jemalloc"
 # Manage your Java environment
 brew "jenv"
+# Command-line interface for Jfrog Artifactory and Bintray
+brew "jfrog-cli-go"
 # Lightweight and flexible command-line JSON processor
 brew "jq"
 # Domain specific configuration language for defining JSON data
@@ -256,6 +261,7 @@ cask "google-cloud-sdk"
 cask "gpg-suite"
 cask "hammerspoon"
 cask "hex-fiend"
+cask "iconjar"
 cask "intel-haxm"
 cask "intel-power-gadget"
 cask "intellij-idea-ce"
@@ -275,6 +281,8 @@ cask "ngrok"
 # cask "nordvpn"
 cask "notion"
 cask "now"
+cask "paste"
+cask "paw"
 cask "postgres"
 cask "postico"
 cask "private-internet-access"
